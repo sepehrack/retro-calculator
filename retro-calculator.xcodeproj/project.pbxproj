@@ -13,6 +13,7 @@
 		E78580BF1C62138000DD8A07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E78580BE1C62138000DD8A07 /* Assets.xcassets */; };
 		E78580C21C62138000DD8A07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E78580C01C62138000DD8A07 /* LaunchScreen.storyboard */; };
 		E78580CA1C6222E200DD8A07 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E78580C91C6222E200DD8A07 /* Minecraft.ttf */; };
+		E799DC371C62D82100626583 /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = E799DC361C62D82100626583 /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		E78580C11C62138000DD8A07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E78580C31C62138000DD8A07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E78580C91C6222E200DD8A07 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		E799DC361C62D82100626583 /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				E78580B91C62138000DD8A07 /* ViewController.swift */,
 				E78580BB1C62138000DD8A07 /* Main.storyboard */,
 				E78580C91C6222E200DD8A07 /* Minecraft.ttf */,
+				E799DC361C62D82100626583 /* btn.wav */,
 				E78580BE1C62138000DD8A07 /* Assets.xcassets */,
 				E78580C01C62138000DD8A07 /* LaunchScreen.storyboard */,
 				E78580C31C62138000DD8A07 /* Info.plist */,
@@ -126,6 +129,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E799DC371C62D82100626583 /* btn.wav in Resources */,
 				E78580C21C62138000DD8A07 /* LaunchScreen.storyboard in Resources */,
 				E78580BF1C62138000DD8A07 /* Assets.xcassets in Resources */,
 				E78580CA1C6222E200DD8A07 /* Minecraft.ttf in Resources */,
@@ -289,6 +293,7 @@
 				E78580C81C62138000DD8A07 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -74,6 +74,16 @@ class ViewController: UIViewController {
         processOperation(currentOperation)
     }
     
+    //Reset Button Challenge
+    @IBAction func onResetPressed(sender: AnyObject) {
+        runningNumber = ""
+        outputLbl.text = String(0.0)
+        playSound()
+        leftValStr = ""
+        rightValStr = ""
+    }
+  
+    
     func processOperation(op: Operation) {
         playSound()
         
